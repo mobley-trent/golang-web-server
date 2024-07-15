@@ -23,3 +23,8 @@ To run the server, execute the following command:
 ```bash
 go run main.go
 ```
+
+The server has three routes:
+1. `/`: This is the default route which serves the static page.
+2. `/hello`: This displays 'hello' on the screen.
+3. `/form`: This displays a page where the user is prompted for their name and address. This data is then printed on the screen.
